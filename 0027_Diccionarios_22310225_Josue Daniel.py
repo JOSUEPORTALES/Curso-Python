@@ -19,5 +19,15 @@ teclado2 = {
 teclado2['Modelo']
 teclado2['Precio']
 
+"""
+Del diccionario teclado2 del capítulo, muestra los elementos Modelo y Precio
+con presentación en un print().
+El resultado será esto en la consola:
 
-print ('El modelo' ,teclado2['Modelo'],'cuesta' ,teclado2['Precio'])
+"""
+#print ('El modelo' ,teclado2['Modelo'],'cuesta' ,teclado2['Precio'])
+
+#Itera el diccionario teclado1 con un solo bucle for
+#que muestre esto en la consola:
+for x in teclado2:
+    print(x,'=',teclado2[x])
