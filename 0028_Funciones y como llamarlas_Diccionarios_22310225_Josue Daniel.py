@@ -22,18 +22,38 @@ suma(56999,1)
 
 #Completa el siguiente fragmento de código:
 
-def colores(*args):
-	print('El color', args[1], 'es mi favorito.', 'El color', args[0], 'tampoco está mal.')
+#def colores(*args):
+#	print('El color', args[1], 'es mi favorito.', 'El color', args[0], 'tampoco está mal.')
 
-colores('rojo','azul')
+#colores('rojo','azul')
+
+def colores(*args):
+	pass
+
+colores('rojo', 'azul', 'verde', 'amarillo')
+colores('lila', 'negro', 'rojo')
+colores('rosa')
+colores('marrón', 'naranja')
+
 """
 Crea una función que realice la suma de cinco números utilizando solo *args.
 Debes imprimir el resultado en la consola.
 La suma no se realizará directamente sobre el print().
 """
 
-def suma(*args)
-#comentario
+def suma(*args):
+   resultado = args[0] + args[1] + args[2] + args[3] + args[4]
+   print(resultado)
+
+
+suma(1,2,3,4,5)
+
+
+def colores (**kwargs):
+	print("Este es el color " + kwargs['color1'] + '.')
+
+colores(color1='rojo', color2='azul')
+   
 
 
 
