@@ -19,3 +19,5 @@ del maquina1.sector
 
 
 maquina1.mostrar_pz()
+
+
