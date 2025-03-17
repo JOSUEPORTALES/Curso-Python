@@ -45,3 +45,48 @@ text = "en el momento adecuado"
 busqueda2 = re.findall("e", text)
 
 print(busqueda2)
+
+'''
+lo que hace esta funcion es encontrar todas las coincidencias de la letra e en la frase que escribi
+funciona tambien para buscar palabras completas o silabas.
+esta es la forma que se muestra en pantalla:
+['e', 'e', 'e', 'e']
+'''
+
+#Expresiones split y sub
+
+'''
+frase = "No puedo enseñar nada a nadie Solo puedo hacerles pensar"
+
+resultado = re.split(" ", frase)
+
+print(resultado)
+'''
+
+#resultado2 = re.split(" ", frase, 4)
+#print(resultado2)
+
+
+# funcion sub
+
+frase1 = "Sólo hay un bien, el conocimiento, y un mal, la ignorancia."
+
+revel = re.sub(",","-",frase1) 
+
+
+print(revel)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
